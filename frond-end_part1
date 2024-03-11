@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cafeteria ai chatbot</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<img src="logo.png" alt="Cafeteria Logo">
+		<h1>Cafeteria ai chatbot</h1>
+	</header>
+	<div class="chat-container">
+		<div class="chat-history">
+			<div class="message user-message">
+				<p>Hello!</p>
+			</div>
+			<div class="message ai-message">
+				<p>Hi there! How can I assist you today?</p>
+			</div>
+		</div>
+		<form class="chat-input-container">
+			<textarea class="chat-input" placeholder="Type your message here..."></textarea>
+			<button class="send-btn">
+				<img src="send-icon.png" alt="Send">
+			</button>
+			<input type="file" class="upload-btn">
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
