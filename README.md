@@ -1,6 +1,6 @@
 # Cafeteria- UTS AI CHATBOT
 
-GROUP CAFETERIA
+GROUP CAFETERIA (OOP course)
 1-BCS23020015-DICKY TEO WEI KWUANK
 2-BCS23020008-Alexander Ting Su Keong
 3-BMD23020001-Lau Bik Hee
@@ -12,7 +12,7 @@ Our group use GOOGLE COLAB to run our project becauce the large graphic needed
 
 hugging face model = meta-llama/Llama-2-7b-chat-hf
 
-...!pip install...
+.....!pip install.....
 ::Time taken in 3 minutes::
 !pip install accelerate==0.21.0 transformers==4.31.0 tokenizers==0.13.3
 !pip install bitsandbytes==0.40.0 einops==0.6.1
@@ -21,15 +21,15 @@ hugging face model = meta-llama/Llama-2-7b-chat-hf
 !pip install faiss-gpu==1.7.1.post3
 !pip install sentence_transformers
 
-**Please run all the part of python code in GOOGLE COLAB to get the final link to chat with ai**
-**PLEASE CHANGE and CONNECT the runtime type (T4)**
+--**Please run all the part of python code in GOOGLE COLAB to get the final link to chat with ai**--
+--**PLEASE CHANGE and CONNECT the runtime type (T4)**--
 !!!! DON'T USE the (CPU) runtime type !!!! -It cannot run too large graphic 
 
--Test and Train our model with ask the questions
--Give some informations with links about UTS(University of Technology Sarawak)
+-Test and Train our model with ask the questions-
+-Give some informations with links about UTS(University of Technology Sarawak)-
 
 [python] !mkdir templates -p
--Connection with back-end and front-end
+++ Connection with back-end and front-end ++
 
 Object-oriented programming principles apply in javascript: 
 -inheritance, Polymorphism, Objects, and Exception Handling
